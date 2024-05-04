@@ -1,9 +1,72 @@
-.header1{
+.navbar {
+    background-color: #3d5369;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    border-style:ridge;
+    border-color: gold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    top: 0;
-    text-align: center;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    color: rgb(0, 0, 0);
-    background-color: rgb(205, 205, 240);
-}
+  }
+  
+  .nav-item { 
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link.active, .nav-link:hover {
+    text-decoration: underline;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #343a40;
+  }
+  
+  .search-button:hover {
+    background-color: #ccc;
+  }
+  .city-dropdown {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #343a40;
+  }
+  
+  .city-dropdown:focus {
+    outline: none;
+  }
+  
