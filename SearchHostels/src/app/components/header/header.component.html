@@ -2,15 +2,17 @@
     <div class="navbar-brand">
       Search Hostels</div>
       <div class="search-container">
+        <i class="fa fa-map-marker-alt"></i>
         <select class="city-dropdown">
-          <option value="">Select City</option>
+          <option value="" hidden>Select Your City</option>
           <option value="New York">New York</option>
           <option value="Los Angeles">Los Angeles</option>
           <option value="Chicago">Chicago</option>
           <option value="Houston">Houston</option>
         </select>
-        <input type="text" placeholder="Search..." class="search-input">
-        <button class="search-button">Search</button>
+        <p>or &nbsp;</p>
+        <input type="text" placeholder="Search Hostel Name..." class="search-input">
+        <button class="search-button"><i class="fas fa-search"></i></button>
       </div>
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -18,9 +20,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/admin" routerLinkActive="active">Admin</a>

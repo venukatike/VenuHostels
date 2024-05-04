@@ -1,4 +1,5 @@
 .navbar {
+  position: sticky;
     background-color: #3d5369;
     color: white;
     display: flex;
@@ -58,7 +59,7 @@
     background-color: #ccc;
   }
   .city-dropdown {
-    padding: 5px 10px;
+    padding: 4px 8px;
     margin-right: 10px;
     border: none;
     border-radius: 5px;
@@ -69,4 +70,32 @@
   .city-dropdown:focus {
     outline: none;
   }
+  .fa-map-marker-alt {
+    color: #2bd718; /* Adjust the color to fit your design */
+    margin-right: 5px;
+    vertical-align: middle; /* Aligns icon with the text in dropdown */
+  }
+  .search-button {  
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button i {
+    margin-right: 5px; /* Creates a small space between the icon and the text */
+  }
+  
+  .search-button:hover {
+    background-color: #f0f0f5;
+  }
+  
+  .search-button:focus {
+    outline: none;
+  }
+  
   

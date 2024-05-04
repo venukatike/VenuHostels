@@ -7,12 +7,10 @@ import { HomeComponent } from './components/home/home.component';
 import { AdminLoginComponent } from './components/admin-login/admin-login.component';
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
   { path: 'home', component: HomeComponent },
  // { path: 'about', component: AboutComponent },
- // { path: 'contact', component: ContactComponent },
   { path: 'admin', component: AdminLoginComponent },
- // { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
