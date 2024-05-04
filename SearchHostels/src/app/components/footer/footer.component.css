@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+background-color: rgb(190, 191, 186);
+}
+#footer{
+    font-size: small;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
